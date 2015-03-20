@@ -36,27 +36,61 @@ def in_query():
     # Write the query
     #query = {"manufacturer":"Ford Motor Company", 
     #         "assembly":{"$in":["Germany", "United Kingdom", "Japan"]}}
-    query = {"amenity":"bank"}
+    #query = {"amenity":"bank"}
+    
+
+
     return query
+
+def make_pipeline():
+    # complete the aggregation pipeline
+    # most common source
+    #pipeline = [ #{ "$match" : {"$name" : { "$gt":0 }}},
+    #            { "$group" : { "_id" : "$source","count": {"$sum": 1 }}},
+    #            { "$sort" : { "count" : -1 }},
+                #{ "$skip" : 1 },
+                #{ "$limit" : 1 }
+    #            ]
+    # most common amrity
+    pipeline = [ #{ "$match" : {"$name" : { "$gt":0 }}},
+                { "$group" : { "_id" : "$amenity","count": {"$sum": 1 }}},
+                { "$sort" : { "count" : -1 }},
+                { "$skip" : 1 },
+    #            { "$limit" : 1 }
+               ]
+    return pipeline
+
+def aggregate(db, pipeline):
+    result = db.vashon.aggregate(pipeline)
+    return result
+    
+def load_data(file_in):
+    db = get_db()    
+    #data = process_map(file_in, True)
+    #for x in data:
+    #    add_data(db,x)
+    return db
 
 def test():
     # NOTE: if you are running this code on your computer, with a larger dataset, 
     # call the process_map procedure with pretty=False. The pretty=True option adds 
     # additional spaces to the output, making it significantly larger.
-    db = get_db()    
-    data = process_map(OSMFILE, True)
-    #db.cities.insert(data[1])
-    for x in data:
-        add_data(db,x)
-    #    pprint.pprint(x)
-    print (db.vashon.count())
-    print (db.vashon.find({'type':'way'}).count())
-    print (db.vashon.find({'amenity':'bank'}))
-    print (db.vashon.find({'amenity':'bank'}).count())
-    query = in_query()
-    rt=db.vashon.find({"amenity":"bank"},{"name":1})
-    for a in rt:
-        pprint.pprint(a)
+    
+    db=load_data(OSMFILE)
+    #print (db.vashon.count())
+    #print (db.vashon.find({'type':'way'}).count())
+    #print (db.vashon.find({'amenity':'bank'}))
+    #print (db.vashon.find({'amenity':'bank'}).count())
+    #query = in_query()
+    #result=db.vashon.find(query,{"name":1})
+    #for a in result:
+    #    pprint.pprint(a)
+    
+    pipeline = make_pipeline()    
+    result = aggregate(db, pipeline)
+    #print(result)
+    pprint.pprint(result["result"])
    
 if __name__ == "__main__": 
     test()
+    
