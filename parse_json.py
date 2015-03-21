@@ -24,9 +24,9 @@ def add_data(db,d_in):
     db.vashon.insert(d_in)
     
 def process_map(file_in, pretty = False):
-    # You do not need to change this file
     data = []
     for _, element in ET.iterparse(file_in):
+           #pprint(element)
             el = shape_element(element)
             if el:
                 data.append(el)
@@ -66,9 +66,9 @@ def aggregate(db, pipeline):
     
 def load_data(file_in):
     db = get_db()    
-    #data = process_map(file_in, True)
-    #for x in data:
-    #    add_data(db,x)
+    data = process_map(file_in, True)
+    for x in data:
+        add_data(db,x)
     return db
 
 def test():
@@ -77,7 +77,7 @@ def test():
     # additional spaces to the output, making it significantly larger.
     
     db=load_data(OSMFILE)
-    #print (db.vashon.count())
+    print (db.vashon.count())
     #print (db.vashon.find({'type':'way'}).count())
     #print (db.vashon.find({'amenity':'bank'}))
     #print (db.vashon.find({'amenity':'bank'}).count())
