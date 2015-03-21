@@ -1,0 +1,2533 @@
+[{
+  "pos": [
+    47.4975639, 
+    -122.3748894
+  ], 
+  "visible": "true", 
+  "type": "node", 
+  "id": "30428872", 
+  "created": {
+    "changeset": "614758", 
+    "user": "Rob Lanphier", 
+    "version": "5", 
+    "uid": "11039", 
+    "timestamp": "2009-02-21T23:31:27Z"
+  }
+},
+{
+  "pos": [
+    47.5004053, 
+    -122.3739281
+  ], 
+  "visible": "true", 
+  "type": "node", 
+  "id": "30428874", 
+  "created": {
+    "changeset": "614758", 
+    "user": "Rob Lanphier", 
+    "version": "8", 
+    "uid": "11039", 
+    "timestamp": "2009-02-21T23:37:20Z"
+  }
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "name_1": "Lumahai Beach Road Southeast", 
+  "tiger:zip_right": "98359", 
+  "visible": "true", 
+  "tiger:tlid": "187660991", 
+  "id": "5919025", 
+  "tiger:name_type_1": "Rd", 
+  "tiger:name_base_1": "Lumahai Beach", 
+  "tiger:name_type": "Ln", 
+  "type": "way", 
+  "highway": "residential", 
+  "node_refs": [
+    "48507045", 
+    "48585723", 
+    "48585725"
+  ], 
+  "tiger:reviewed": "no", 
+  "tiger:separated": "no", 
+  "tiger:county": "Kitsap, WA", 
+  "tiger:name_base": "Lumahai Beach", 
+  "name": "Southeast Lumahai Beach Lane", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "4304468", 
+    "user": "balrog-kun", 
+    "version": "2", 
+    "uid": "20587", 
+    "timestamp": "2010-04-02T18:43:34Z"
+  }, 
+  "tiger:zip_left": "98359", 
+  "tiger:name_direction_prefix": "SE", 
+  "tiger:name_direction_suffix_1": "SE"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52969488", 
+    "52969490", 
+    "52969491", 
+    "52969492"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "444718", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T02:54:14Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186647028", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6316589", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52969954", 
+    "52969955", 
+    "52969956"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "444718", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T02:54:40Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186701039", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6316666", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52971858", 
+    "52971860", 
+    "52971861"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A74", 
+  "created": {
+    "changeset": "444718", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T02:56:26Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "access": "private", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186621868", 
+  "type": "way", 
+  "id": "6317012", 
+  "highway": "service"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52971946", 
+    "52971945"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "324429", 
+    "user": "Amoebabadass", 
+    "version": "2", 
+    "uid": "11131", 
+    "timestamp": "2008-06-28T07:09:22Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186622895", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6317040", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52971983", 
+    "52971985", 
+    "52971987", 
+    "52971989"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "444718", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T02:56:36Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186646513", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6317058", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "52971940", 
+    "52971936"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "22318368", 
+    "user": "Skybunny", 
+    "version": "3", 
+    "uid": "1751737", 
+    "timestamp": "2014-05-13T18:01:56Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6317038", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52972783", 
+    "52972785"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "444718", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T02:57:21Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186716195", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6317212", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52977731", 
+    "52977733", 
+    "60649552", 
+    "52977735", 
+    "52977738", 
+    "52977740", 
+    "52977742", 
+    "52977744", 
+    "52977746", 
+    "52977749", 
+    "1775832524", 
+    "1775832459", 
+    "1775832439"
+  ], 
+  "name": "Palisades Retreat", 
+  "tiger:cfcc": "A74", 
+  "created": {
+    "changeset": "11793906", 
+    "user": "KTyler", 
+    "version": "3", 
+    "uid": "636969", 
+    "timestamp": "2012-06-04T08:43:34Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "access": "private", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186702487:186951594", 
+  "type": "way", 
+  "id": "6318212", 
+  "highway": "unclassified", 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52977988", 
+    "52977990", 
+    "52977992", 
+    "52977993", 
+    "52977994", 
+    "52977995", 
+    "52977996"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "444718", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:02:18Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186647136", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6318267", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52978465", 
+    "52978466", 
+    "52978467", 
+    "52978468", 
+    "52978469", 
+    "52978470", 
+    "52978471", 
+    "52978472", 
+    "52978473", 
+    "52978474", 
+    "52978475", 
+    "52978476", 
+    "52978477", 
+    "52978478", 
+    "52978479", 
+    "52978480"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "444718", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:02:43Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186956168:186623107:186623108:186623110", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6318373", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52979933", 
+    "52979935"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "444718", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:04:21Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186621975", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6318722", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52979935", 
+    "52979938", 
+    "52979940", 
+    "52979942", 
+    "52979943", 
+    "52979946", 
+    "52979948", 
+    "52979950", 
+    "52979952", 
+    "52979954", 
+    "52979956", 
+    "52979958", 
+    "52979960", 
+    "52979962", 
+    "52979946"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "444718", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:04:23Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186621976:186621979:186955868:186625279", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6318728", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52980095", 
+    "52980096", 
+    "52980098", 
+    "52980100"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "444718", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:04:35Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186646624", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6318763", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52978473", 
+    "52982543", 
+    "52982544", 
+    "52982545", 
+    "52982547", 
+    "52982549", 
+    "52982550"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "444718", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:07:25Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186623047:186667720", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6319270", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52982575", 
+    "52982576"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "444718", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:07:28Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186623049", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6319284", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "52982895", 
+    "2555182398", 
+    "2555182357", 
+    "52982897", 
+    "2555182351", 
+    "2555182348", 
+    "52982899", 
+    "52982900", 
+    "2555182355", 
+    "2555182347", 
+    "2555182378", 
+    "2555182388", 
+    "2555182387", 
+    "52982902", 
+    "52982904"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "19154047", 
+    "user": "compdude", 
+    "version": "2", 
+    "uid": "282329", 
+    "timestamp": "2013-11-28T05:41:43Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6319352", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52987330", 
+    "52987331", 
+    "52987332", 
+    "52987334", 
+    "52987336"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:13:34Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186663107:186622865", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6320412", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52987344", 
+    "52987345", 
+    "52987348"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:13:35Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186712147", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6320419", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52987608", 
+    "52987609", 
+    "52987610", 
+    "52987611", 
+    "52987612", 
+    "52987613", 
+    "52987614"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:13:57Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186607081", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6320515", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "52987340", 
+    "1265975070", 
+    "52987341"
+  ], 
+  "service": "driveway", 
+  "created": {
+    "changeset": "22455305", 
+    "user": "Skybunny", 
+    "version": "5", 
+    "uid": "1751737", 
+    "timestamp": "2014-05-20T21:54:58Z"
+  }, 
+  "visible": "true", 
+  "type": "way", 
+  "id": "6320415", 
+  "highway": "service"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52987831", 
+    "52987832", 
+    "52987835", 
+    "52987837", 
+    "52987839", 
+    "52987841", 
+    "52987844"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:14:18Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186623778", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6320591", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52988001", 
+    "52988003", 
+    "52988006", 
+    "52988007", 
+    "52988008", 
+    "52988009"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:14:36Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186610362", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6320657", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "52987904", 
+    "2871566538", 
+    "2871566537", 
+    "52987909", 
+    "52987912"
+  ], 
+  "tiger:cfcc": "A41", 
+  "service": "driveway", 
+  "created": {
+    "changeset": "22456223", 
+    "user": "Skybunny", 
+    "version": "2", 
+    "uid": "1751737", 
+    "timestamp": "2014-05-20T23:23:37Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6320618", 
+  "highway": "service"
+},
+{
+  "node_refs": [
+    "52987901", 
+    "52987900"
+  ], 
+  "tiger:cfcc": "A41", 
+  "service": "driveway", 
+  "created": {
+    "changeset": "22456223", 
+    "user": "Skybunny", 
+    "version": "3", 
+    "uid": "1751737", 
+    "timestamp": "2014-05-20T23:23:37Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6320615", 
+  "highway": "service"
+},
+{
+  "node_refs": [
+    "52989669", 
+    "52989672"
+  ], 
+  "name": "Southwest Cowan Road", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "22455013", 
+    "user": "Skybunny", 
+    "version": "4", 
+    "uid": "1751737", 
+    "timestamp": "2014-05-20T21:34:03Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6321096", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52990799", 
+    "52990800", 
+    "52990803"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:19:47Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186622493", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6321333", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52992590", 
+    "52992591", 
+    "52992594", 
+    "52992596", 
+    "52992598", 
+    "52992600", 
+    "52992602", 
+    "52992604", 
+    "52992606", 
+    "52992608", 
+    "52992610", 
+    "52992612", 
+    "52992614", 
+    "52992617", 
+    "52992619", 
+    "52992621", 
+    "52992623", 
+    "52992625", 
+    "52992627", 
+    "52992629", 
+    "52992631", 
+    "52992633", 
+    "52992636", 
+    "52992638", 
+    "52992640", 
+    "52992643", 
+    "52992645", 
+    "52992648", 
+    "52992650", 
+    "52992651", 
+    "52992653", 
+    "52992656", 
+    "52992658"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:22:54Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186622187:186622232:186622234", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6321705", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52992704", 
+    "52979954"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:23:00Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186621982", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6321723", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52992815", 
+    "52992817", 
+    "52992819"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:23:12Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186646631", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6321752", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52995273", 
+    "52995272"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "586343", 
+    "user": "Amoebabadass", 
+    "version": "2", 
+    "uid": "11131", 
+    "timestamp": "2008-09-08T23:07:30Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186622391", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6322257", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "52995284", 
+    "2494285045", 
+    "52995282", 
+    "2494285044", 
+    "52995280"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "18322209", 
+    "user": "sea duck", 
+    "version": "3", 
+    "uid": "1715576", 
+    "timestamp": "2013-10-12T20:44:53Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6322260", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "52995614", 
+    "52995606", 
+    "52995613", 
+    "52995612", 
+    "52995611", 
+    "52995610", 
+    "52995608", 
+    "52995606", 
+    "295175399", 
+    "52995604", 
+    "295175391", 
+    "295175381", 
+    "52995603", 
+    "295175389", 
+    "295175386", 
+    "52995599", 
+    "52995597", 
+    "295175347", 
+    "295175352", 
+    "295175349", 
+    "52995596", 
+    "295175337", 
+    "295175333", 
+    "295175363"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "23228400", 
+    "user": "Skybunny", 
+    "version": "4", 
+    "uid": "1751737", 
+    "timestamp": "2014-06-27T20:25:31Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6322323", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "52996402", 
+    "2936005065", 
+    "2936005066", 
+    "2936005067", 
+    "52996406", 
+    "2936005068"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "23228285", 
+    "user": "Skybunny", 
+    "version": "2", 
+    "uid": "1751737", 
+    "timestamp": "2014-06-27T20:19:42Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6322477", 
+  "highway": "service"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52996732", 
+    "52996734", 
+    "52996736", 
+    "52996739", 
+    "52996742", 
+    "52996744"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:31:46Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186621883:186621902", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6322538", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52996749", 
+    "52996751"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:31:46Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186621889", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6322540", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "52997152", 
+    "52997153", 
+    "52997155", 
+    "52997156", 
+    "2494284970"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "18322209", 
+    "user": "sea duck", 
+    "version": "3", 
+    "uid": "1715576", 
+    "timestamp": "2013-10-12T20:44:54Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6322651", 
+  "highway": "tertiary"
+},
+{
+  "node_refs": [
+    "52998595", 
+    "52998597", 
+    "52998599", 
+    "52998600"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "18322209", 
+    "user": "sea duck", 
+    "version": "2", 
+    "uid": "1715576", 
+    "timestamp": "2013-10-12T20:44:53Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6322949", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52987348", 
+    "52998710"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:35:03Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186712150", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6322976", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52998859", 
+    "52998861", 
+    "52998863", 
+    "52998865", 
+    "52998868", 
+    "52998870", 
+    "52998871", 
+    "52998873"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:35:21Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186615729", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6323021", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53003088", 
+    "53003090", 
+    "53003091"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:41:28Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186622198", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6323900", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53003142", 
+    "53003143"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:41:35Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186621990", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6323920", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53004607", 
+    "287820615", 
+    "287820618", 
+    "287820612", 
+    "287820621", 
+    "53004609", 
+    "53004611", 
+    "287820627", 
+    "287820624", 
+    "53004613", 
+    "287820630", 
+    "53004616"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "237536", 
+    "user": "Amoebabadass", 
+    "version": "2", 
+    "uid": "11131", 
+    "timestamp": "2008-08-14T08:44:00Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186647364", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6324235", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53005260", 
+    "53005261", 
+    "53005263", 
+    "53005265", 
+    "53005266"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:44:34Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186620341", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6324388", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "52995597", 
+    "53006072"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "586343", 
+    "user": "Amoebabadass", 
+    "version": "2", 
+    "uid": "11131", 
+    "timestamp": "2008-09-08T21:24:12Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186622091", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6324610", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "53006082", 
+    "2935998514", 
+    "2935998515", 
+    "2935998516", 
+    "2935998517", 
+    "53006086", 
+    "53006088", 
+    "2935998512", 
+    "2935998511", 
+    "2935998513", 
+    "53006092"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "23228168", 
+    "user": "Skybunny", 
+    "version": "2", 
+    "uid": "1751737", 
+    "timestamp": "2014-06-27T20:11:52Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6324616", 
+  "highway": "track"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53006607", 
+    "53006608"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:46:34Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186613520", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6324763", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53006774", 
+    "53006775", 
+    "53006778"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:46:47Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186699804:186623123", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6324802", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53006781", 
+    "53006783", 
+    "53006786", 
+    "53006788", 
+    "53006789"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:46:47Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186699805", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6324805", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53008273", 
+    "53008275"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "10704952", 
+    "user": "brian_l", 
+    "version": "2", 
+    "uid": "606151", 
+    "timestamp": "2012-02-16T19:38:20Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186629035", 
+  "tiger:separated": "no", 
+  "foot": "yes", 
+  "type": "way", 
+  "id": "6325127", 
+  "highway": "path"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53009762", 
+    "53009763"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:54:47Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186623171", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6325539", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "53009947", 
+    "53009948", 
+    "53009949"
+  ], 
+  "tiger:cfcc": "A41", 
+  "service": "driveway", 
+  "created": {
+    "changeset": "22456223", 
+    "user": "Skybunny", 
+    "version": "2", 
+    "uid": "1751737", 
+    "timestamp": "2014-05-20T23:23:34Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6325591", 
+  "highway": "service"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53009933", 
+    "53009935", 
+    "53009937"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:55:06Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186699703", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6325586", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53009941", 
+    "53009943", 
+    "53009945"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:55:07Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186699705", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6325588", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53011408", 
+    "53011410", 
+    "53011412", 
+    "53011415", 
+    "53011418", 
+    "53011421", 
+    "53011423", 
+    "53011425"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:56:48Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186612601", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6325861", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53012221", 
+    "53012222"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T03:57:42Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186647375", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6325996", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "53012673", 
+    "53012676"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "24112580", 
+    "user": "Skybunny", 
+    "version": "2", 
+    "uid": "1751737", 
+    "timestamp": "2014-07-13T04:17:19Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6326071", 
+  "highway": "track"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53014841", 
+    "53014840"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "324429", 
+    "user": "Amoebabadass", 
+    "version": "2", 
+    "uid": "11131", 
+    "timestamp": "2008-06-28T04:28:24Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186647275", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6326462", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53014850", 
+    "53014852"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:00:00Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186647278", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6326465", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53017253", 
+    "53017255", 
+    "53017257", 
+    "53017258"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:03:22Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186699715:186622451", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6327031", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53017260", 
+    "53017262", 
+    "53017263"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:03:23Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186699718", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6327035", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53017221", 
+    "53017223", 
+    "53017225", 
+    "53017227", 
+    "53017228", 
+    "53017229", 
+    "53017232", 
+    "53017234", 
+    "53017239", 
+    "53017240", 
+    "53017241", 
+    "53017243", 
+    "53017245", 
+    "53017247", 
+    "53017248", 
+    "53017221"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "4455670", 
+    "user": "diggernet", 
+    "version": "2", 
+    "uid": "734", 
+    "timestamp": "2010-04-18T09:24:43Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186699712", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6327028", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53018751", 
+    "53018752", 
+    "53018753", 
+    "53018754", 
+    "53018755", 
+    "53018756"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:05:18Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186630535:186630536", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6327400", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53018754", 
+    "53018757", 
+    "53018758", 
+    "53018759", 
+    "53018760"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:05:18Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186630537", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6327401", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53019474", 
+    "53019475"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:06:00Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186623088", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6327556", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53020266", 
+    "53020268"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "7999450", 
+    "user": "Wim L", 
+    "version": "2", 
+    "uid": "223681", 
+    "timestamp": "2011-04-28T22:51:34Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186612825", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6327712", 
+  "highway": "service"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53020997", 
+    "53020999"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:07:28Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186951010", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6327884", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53021558", 
+    "53021559", 
+    "53021562", 
+    "53021563", 
+    "53021564", 
+    "53021566", 
+    "53021568", 
+    "53021571", 
+    "53021572"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:07:59Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186630434", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6328028", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53022769", 
+    "53022770", 
+    "53022771", 
+    "53022773", 
+    "53022775", 
+    "53022777", 
+    "53022779"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:09:06Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186646461", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6328362", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53022781", 
+    "53022782"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:09:07Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186646466", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6328364", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53022786", 
+    "53022787"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:09:07Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186646467", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6328366", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53022790", 
+    "53022791"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:09:07Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186646468", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6328369", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53025128", 
+    "53025129"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:11:16Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186609553", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6328914", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53025183", 
+    "53025184", 
+    "53025186", 
+    "53025188", 
+    "53025190"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:11:19Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186647087", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6328920", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53025194", 
+    "53025183"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:11:19Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186647089", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6328922", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53026781", 
+    "53026783"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:13:18Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186663155", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6329345", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "53027053", 
+    "2494285084", 
+    "53027054"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "18322209", 
+    "user": "sea duck", 
+    "version": "2", 
+    "uid": "1715576", 
+    "timestamp": "2013-10-12T20:44:53Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6329420", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53028443", 
+    "53028445"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:15:35Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186712098", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6329903", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53028551", 
+    "53028552", 
+    "53028554", 
+    "53028555", 
+    "53028557", 
+    "53028558"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:15:43Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186646998:186647091", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6329928", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53029684", 
+    "53029685", 
+    "53029686", 
+    "53029688"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:17:14Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186647093", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6330302", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53029709", 
+    "53029710", 
+    "53029712"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "445579", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:17:16Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186647095", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6330307", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "53031501", 
+    "53031503"
+  ], 
+  "tiger:cfcc": "A41", 
+  "service": "driveway", 
+  "created": {
+    "changeset": "22456294", 
+    "user": "Skybunny", 
+    "version": "2", 
+    "uid": "1751737", 
+    "timestamp": "2014-05-20T23:35:13Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6330700", 
+  "highway": "service"
+},
+{
+  "node_refs": [
+    "53031932", 
+    "53031934", 
+    "2494284982", 
+    "53031936", 
+    "2494284980", 
+    "53031938", 
+    "2494284978", 
+    "2494284976", 
+    "53031940"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "18322209", 
+    "user": "sea duck", 
+    "version": "2", 
+    "uid": "1715576", 
+    "timestamp": "2013-10-12T20:44:54Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6330789", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53032959", 
+    "53032961", 
+    "53032963", 
+    "53032966", 
+    "53032968", 
+    "53032970", 
+    "53032973", 
+    "53032975", 
+    "53032978", 
+    "53032980"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "446628", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:20:19Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186951455:186622347", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6331047", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "53033339", 
+    "53033340"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "24109423", 
+    "user": "Skybunny", 
+    "version": "2", 
+    "uid": "1751737", 
+    "timestamp": "2014-07-12T21:33:26Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6331125", 
+  "highway": "track"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53033565", 
+    "53033567", 
+    "53033569"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "446628", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:20:54Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186630561", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6331186", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53034019", 
+    "53034020", 
+    "53034022"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "446628", 
+    "user": "DaveHansenTiger", 
+    "version": "1", 
+    "uid": "7168", 
+    "timestamp": "2007-09-17T04:21:25Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186699646", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6331329", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "53034106", 
+    "2871566524", 
+    "2871566523", 
+    "53034109"
+  ], 
+  "tiger:cfcc": "A41", 
+  "service": "driveway", 
+  "created": {
+    "changeset": "22456223", 
+    "user": "Skybunny", 
+    "version": "2", 
+    "uid": "1751737", 
+    "timestamp": "2014-05-20T23:23:36Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6331366", 
+  "highway": "service"
+},
+{
+  "node_refs": [
+    "53031503", 
+    "2871576023", 
+    "2871576022", 
+    "2871576018", 
+    "2871576019", 
+    "2871576020", 
+    "2871576021", 
+    "53035834"
+  ], 
+  "tiger:cfcc": "A41", 
+  "service": "driveway", 
+  "created": {
+    "changeset": "22456294", 
+    "user": "Skybunny", 
+    "version": "2", 
+    "uid": "1751737", 
+    "timestamp": "2014-05-20T23:35:13Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6331864", 
+  "highway": "service"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53036241", 
+    "274226689", 
+    "274226707", 
+    "274226690", 
+    "274226700", 
+    "274226702", 
+    "53036242", 
+    "274226703", 
+    "274226696", 
+    "274226691", 
+    "274226705", 
+    "274226692", 
+    "274226694", 
+    "274226698", 
+    "274226693", 
+    "53036246"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "324429", 
+    "user": "Amoebabadass", 
+    "version": "2", 
+    "uid": "11131", 
+    "timestamp": "2008-06-28T08:45:26Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186618515", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6331965", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "53035837", 
+    "2871566534", 
+    "2871566535", 
+    "2871566536", 
+    "53035838"
+  ], 
+  "tiger:cfcc": "A41", 
+  "service": "driveway", 
+  "created": {
+    "changeset": "22456223", 
+    "user": "Skybunny", 
+    "version": "2", 
+    "uid": "1751737", 
+    "timestamp": "2014-05-20T23:23:36Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6331865", 
+  "highway": "service"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53036475", 
+    "53036474"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "324429", 
+    "user": "Amoebabadass", 
+    "version": "2", 
+    "uid": "11131", 
+    "timestamp": "2008-06-28T08:50:02Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186622824", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6332032", 
+  "highway": "residential"
+},
+{
+  "tiger:source": "tiger_import_dch_v0.6_20070830", 
+  "node_refs": [
+    "53036477", 
+    "53036476"
+  ], 
+  "tiger:upload_uuid": "bulk_upload.pl-29a9466e-9467-44bf-9700-aac8a269b22a", 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "324429", 
+    "user": "Amoebabadass", 
+    "version": "2", 
+    "uid": "11131", 
+    "timestamp": "2008-06-28T08:50:00Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "tiger:tlid": "186622826", 
+  "tiger:separated": "no", 
+  "type": "way", 
+  "id": "6332033", 
+  "highway": "residential"
+},
+{
+  "node_refs": [
+    "53036776", 
+    "53036778", 
+    "53036786"
+  ], 
+  "tiger:cfcc": "A41", 
+  "created": {
+    "changeset": "24109423", 
+    "user": "Skybunny", 
+    "version": "2", 
+    "uid": "1751737", 
+    "timestamp": "2014-07-12T21:33:26Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6332153", 
+  "highway": "track"
+},
+{
+  "node_refs": [
+    "53036772", 
+    "53036773"
+  ], 
+  "tiger:cfcc": "A41", 
+  "service": "driveway", 
+  "created": {
+    "changeset": "24109561", 
+    "user": "Skybunny", 
+    "version": "2", 
+    "uid": "1751737", 
+    "timestamp": "2014-07-12T21:47:29Z"
+  }, 
+  "tiger:reviewed": "no", 
+  "visible": "true", 
+  "tiger:county": "King, WA", 
+  "type": "way", 
+  "id": "6332147", 
+  "highway": "service"
+}]

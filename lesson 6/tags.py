@@ -27,7 +27,7 @@ def key_type(element, keys):
     if element.tag == "tag":
         # YOUR CODE HERE
         k_value = element.attrib['k']
-        print k_value
+        # check what format the key names are
         if lower.search (k_value):
             keys['lower']+=1
         elif lower_colon.search(k_value):

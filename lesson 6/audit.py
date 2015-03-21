@@ -57,7 +57,7 @@ def audit(osmfile):
 def update_name(name, mapping):
 
     # YOUR CODE HERE
-    print name
+    
     for x in mapping:
         if name.find(x)>0:
             name=name[0:name.find(x)]+mapping[x]
@@ -72,7 +72,7 @@ def test():
     for st_type, ways in st_types.iteritems():
         for name in ways:
             better_name = update_name(name, mapping)
-            print name, "=>", better_name
+            print (name, "=>", better_name)
             if name == "West Lexington St.":
                 assert better_name == "West Lexington Street"
             if name == "Baldwin Rd.":

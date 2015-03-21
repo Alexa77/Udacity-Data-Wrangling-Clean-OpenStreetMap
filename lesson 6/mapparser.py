@@ -21,9 +21,10 @@ def count_tags(filename):
         # YOUR CODE HERE
         tags={}
         for event, elem in ET.iterparse(filename):
-
+            # check if the tag already exist
             if elem.tag in tags.keys():
-                tags[elem.tag]=tags[elem.tag]+1
+                tags[elem.tag]=tags[elem.tag]+1 # if exist number add 1
+            # if not exsit create one
             else:
                 tags[elem.tag]=1
 

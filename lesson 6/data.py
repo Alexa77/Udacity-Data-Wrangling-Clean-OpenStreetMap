@@ -89,116 +89,66 @@ should be turned into
 lower = re.compile(r'^([a-z]|_)*$')
 lower_colon = re.compile(r'^([a-z]|_)*:([a-z]|_)*$')
 problemchars = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
-address_regex = re.compile(r'^addr\:')
-street_regex = re.compile(r'^street')
+address_ = re.compile(r'^addr\:')
+colom_ = re.compile(r'\:')
+
 
 CREATED = [ "version", "changeset", "timestamp", "user", "uid"]
+POSITION = ['lat', 'lon'] # GPS positon
 
+#def shape_address:
 
 def shape_element(element):
     node = {}
-    position_attributes = ['lat', 'lon']
-
+    address = {}
     if element.tag == "node" or element.tag == "way":
-        address = {}
+        # add type: node or way
         node['type'] = element.tag 
-        #print node['type']
-        for attribute in element.attrib:
-            if attribute in CREATED:
+        for attrbt in element.attrib:
+            
+            # add CREATED
+            if attrbt in CREATED:
                 if 'created' not in node:
                     node['created'] = {}
-                #node['created'][attribute] = element.get(attribute)
-                node['created'][attribute] = element.attrib[attribute]
-            elif attribute in position_attributes:
+                node['created'][attrbt] = element.attrib[attrbt]           
+            elif attrbt in POSITION:
                 continue
             else:
-                node[attribute] = element.attrib[attribute]
-
+                node[attrbt] = element.attrib[attrbt]
+        
+        # add pos[lon lat]
         if 'lat' in element.attrib and 'lon' in element.attrib:
             node['pos'] = [float(element.get('lat')), float(element.get('lon'))]
-
-        for child in element:
-            if child.tag == 'nd':
+        
+        # secondary tag 
+        for tag_2nd in element:
+            # add node_ref
+            if tag_2nd.tag == 'nd':
                 if 'node_refs' not in node:
                     node['node_refs'] = []
-                if 'ref' in child.attrib:
-                    node['node_refs'].append(child.get('ref'))
+                if 'ref' in tag_2nd.attrib:
+                    node['node_refs'].append(tag_2nd.get('ref'))
+            if tag_2nd.tag != 'tag' or 'k' not in tag_2nd.attrib or 'v' not in tag_2nd.attrib:
+            # ensure valid k and v
+               continue   # jump off elements not in tag
+            key = tag_2nd.get('k')
+            val = tag_2nd.get('v')
 
-            if child.tag != 'tag' or 'k' not in child.attrib or 'v' not in child.attrib:
-                continue
-            key = child.get('k')
-            val = child.get('v')
-
+            # jump off elements with problmetic in keys
             if problemchars.search(key):
-                continue
-            elif address_regex.search(key):
-                key = key.replace('addr:', '')
-                address[key] = val
-
+                continue  
+            elif address_.search(key):
+                 key = key.replace('addr:', '') # replace name
+                 if not colom_.search(key): #search again, does not has":"
+                    address[key] = val
             else:
                 node[key] = val
+        #check if address exist
         if len(address) > 0:
-            node['address'] = {}
-            street_full = None
-            street_dict = {}
-            street_format = ['prefix', 'name', 'type']
-             
-            for key in address:
-                val = address[key]
-                if street_regex.search(key):
-                    if key == 'street':
-                        street_full = val
-                    elif 'street:' in key:
-                        street_dict[key.replace('street:', '')] = val
-                else:
-                    node['address'][key] = val
-             
-            if street_full:
-                node['address']['street'] = street_full
-            elif len(street_dict) > 0:
-                node['address']['street'] = ' '.join([street_dict[key] for key in street_format])
+            node['address'] = address
         return node
     else:
         return None
-    #node = {}
-    #if element.tag == "node" or element.tag == "way" :
-        # YOUR CODE HERE
-        #print element
-        #print element.tag
-        #print element.attrib
-        
-    #    node = {
-    #    "id": element.attrib["id"], 
-    #    "visible": element.attrib["visible"], 
-    #    "type": element.tag, 
-    #    "pos": [float(element.attrib["lat"]), float(element.attrib["lon"])], 
-    #    "created": {
-    #        "changeset": element.attrib["changeset"], 
-    #        "user": element.attrib["user"], 
-    #        "version": element.attrib["version"], 
-    #        "uid": element.attrib["uid"], 
-    #        "timestamp": element.attrib["timestamp"]
-    #                }
-    #     }
-        #print node
-    #    return node
-   # else:
-        
-   #     if element.tag == 'tag':
-   #        k_value = element.attrib['k'] 
-           #print element.attrib
-        #except:
-        #    print 'no'
-   #        if lower.search (k_value):
-   #          keys['lower']+=1
-        #elif lower_colon.search(k_value):
-        #    keys['lower_colon'] +=1
-        #elif problemchars.search(k_value):
-        #    keys['problemchars'] +=1
-        #else:
-        #    keys['other'] +=1
-        #return None
-     
 
 
 def process_map(file_in, pretty = False):
@@ -221,7 +171,6 @@ def test():
     # call the process_map procedure with pretty=False. The pretty=True option adds 
     # additional spaces to the output, making it significantly larger.
     data = process_map('example.osm', True)
-    #pprint.pprint(data)
     
     correct_first_elem = {
         "id": "261114295", 
