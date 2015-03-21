@@ -25,7 +25,7 @@ street_name=re.split(r'\s*', '23 Pie Street SW')
 print(re.split(r'\s*', '23 Pie Street SW'))
 for x in street_name:
     if x in expected:
-        print x
+        print (x)
         pass
     
 #address_regex = re.compile(r'^addr\:')
@@ -34,8 +34,8 @@ comma_ = re.compile(r'\:')
 
 key="addr:street:housenumber"
 if address_regex.search(key):
-    print'yes'
+    print('yes')
     key = key.replace('addr:', '') 
     print(key)
     if not comma_.search(key):
-        print"yes again"
+        print("yes again")
