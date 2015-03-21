@@ -18,7 +18,7 @@ def test():
    
     #process_map(OSMFILE)
     #pprint.pprint(result["result"])
-    with open('vashon.osm2.json') as f:
+    with open('vashon.json') as f:
         data = json.loads(f.read())
     #for ele in data: 
     #    pass
@@ -30,7 +30,7 @@ if __name__ == "__main__":
    from pymongo import MongoClient
    client = MongoClient('localhost:27017')
    db = client.examples
-   with open('vashon.osm2.json') as f:
+   with open('vashon_cleaned.json') as f:
         data = json.loads(f.read())
    insert_data(data, db)
    print(db.vashon2.find_one())
