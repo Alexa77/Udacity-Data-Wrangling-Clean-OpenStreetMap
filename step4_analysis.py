@@ -31,7 +31,7 @@ def get_db():
    
 if __name__ == "__main__": 
     # load data
-    data = load_data('vashon_cleaned.json')
+    data = load_data('tacoma_cleaned.json')
 
     # connect to mongo db
     #db=get_db()
