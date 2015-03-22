@@ -14,14 +14,18 @@ from collections import defaultdict
 import re
 import pprint
 
-OSMFILE = "vashon.osm"
+OSMFILE = "tacoma.osm"
 street_type_re = re.compile(r'\b\S+\.?$', re.IGNORECASE)
 
 
-expected = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Place", "Square", "Lane", "Road", 
-            "Trail", "Parkway", "Commons", "Highway"] #   added highway
+expected = ["Street","street", "Avenue","avenue", "Boulevard","boulevard", "Drive","drive",
+            "Court","court", "Place","place", "Square","square", "Lane","lane",
+            "Road","road","Trail","trail", "Parkway","parkway", "Commons","commons",
+            "Highway","highway","Way","way"] #   added highway
 
-expected2 = ["SE", "SW", "NE", "NW","se","sw","ne","nw"]
+expected2 = ["Southeast","southeast",'SOUTHWEST', "Southwest","southwest", "Northeast","northeast",
+             "Northwest","northwest",'East',"east",'West',"west",'North',"north",
+             'South',"south"]
 
 def count_tags(filename):
         tags={}
@@ -53,28 +57,9 @@ def audit_street_type(street_types, street_name):
     m = street_type_re.search(street_name)
     if m:
         street_type = m.group()
-        if street_type not in expected:
-            street_types[street_type].add(street_name)
+        if (street_type not in expected) and (street_type not in expected2):            
+           street_types[street_type].add(street_name)
             
-def audit_street_type2(street_types, street_name):    
-    # this function is to detect the street names that have the word "street","avenue"
-    # in the middle of the street name such as '31st Avenue Southwest'
-    #print('irregular street names')    
-    street_words=re.split(r'\s*', street_name) # split the into words
-    regular_name=False # inicialize
-    for word in street_words:       
-        if word in expected: # check if any of the words are in the expected value
-            regular_name=True
-    if regular_name==False:
-            print(street_name) 
-     
-    # check if the street name have abbreiation for direction such as "southwest"        
-    regular_name=True # inicialize    
-    for word in street_words:
-        if word in expected2:
-            regular_name=False
-    if regular_name==False:
-            print(street_name)
 
 def is_street_name(elem):
     return (elem.attrib['k'] == "addr:street")
@@ -113,15 +98,11 @@ if __name__ == '__main__':
     # audit/count secondary tag
     secondary_tag = count_secondary_tag(OSMFILE)
     print("counts of secondary tags:")
-    pprint.pprint(secondary_tag)
+    print (len(secondary_tag))
     
     # audit street names
     print("irregular street names:")
     street_types = audit_street_name(OSMFILE)
     pprint.pprint(dict(street_types))
     
-    # audit street names
-    print("irregular street names (modified):")
-    street_types = audit_street_name2(OSMFILE)
-
-    
+  

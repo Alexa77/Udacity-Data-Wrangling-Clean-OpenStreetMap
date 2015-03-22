@@ -15,7 +15,7 @@ import json
 
 DELETE_LIST=['tiger:cfcc','tiger:upload_uuid','tiger:tlid','tiger:reviewed',
              'tiger:name_type','tiger:name_type_1','tiger:name_type_2',
-             'gnis:county_id','gnis:created','gnis:feature_id','gnis:state_id',
+             'name:uk','gnis:county_id','gnis:created','gnis:feature_id','gnis:state_id',
              'gnis:id','gnis:Cell','gnis:ST_alpha','gnis:County_num','created_by',
              'gnis:edited','source:url','tiger:zip_left_4','is_in:country','source:addr:id','fcc:registration_number'
              'tiger:name_base','tiger:zip_left_3','tiger:zip_left_2','is_in:state_code','tiger:cfcc']
@@ -31,7 +31,7 @@ RENAME_LIST=['tiger:source','tiger:county','tiger:zip_left','tiger:zip_right',
 
 
 def load_data():  
-    with open('vashon.json') as f:
+    with open('tacoma.json') as f:
       data = json.loads(f.read())
     return data
 
@@ -77,7 +77,7 @@ def clean_data(data_in):
     
 def save_json(data_in, pretty = False):
     # You do not need to change this file
-    file_out = "vashon_cleaned2.json"
+    file_out = "tacoma_cleaned2.json"
     data = data_in
     with codecs.open(file_out, "w") as fo:
         fo.write("[")
@@ -93,18 +93,18 @@ def save_json(data_in, pretty = False):
 if __name__ == "__main__": 
     
     # load data    
-    data=load_data()
+    #data=load_data()
     
     # audit data
-    key_types = audit_keys(data)
-    print('# of keys: ', len(key_types))
+    #key_types = audit_keys(data)
+    #print('# of keys: ', len(key_types))
 
     #clean data
-    data_cleaned = clean_data(data)
+    #data_cleaned = clean_data(data)
     
     # audit cleaned data
-    key_types = audit_keys(data_cleaned)
-    print('# of keys: ',len(key_types))
+    #key_types = audit_keys(data_cleaned)
+    #print('# of keys: ',len(key_types))
     
     #save to jashon
     save_json(data_cleaned)

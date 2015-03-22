@@ -44,17 +44,23 @@ colom_ = re.compile(r'\:')
 
 CREATED = [ "version", "changeset", "timestamp", "user", "uid"]
 POSITION = ['lat', 'lon'] # GPS positon
+DELETE_LIST=['http://local.safeway.com/wa/tacoma-1594.html']
 
 # UPDATE THIS VARIABLE
 mapping = { "St": "Street",
             "St.": "Street",
+            "ST": "Street",
             'Ave': "Avenue",
+            'ave': "Avenue",
             'Rd.': "Road",
-            'SW ': "Southwest ",
-            'SE ': "Southeast ",
-            'NW ': "Northwest ",
-            'NE ': "Northeast "
-            
+            'Blvd':"Boulevard",
+            'E':"East",
+            'S':"Sourth",
+            'W':"West",
+            'SW': "Southwest ",
+            'SE': "Southeast ",
+            'NW': "Northwest ",
+            'NE': "Northeast ",                     
             }
             
 def shape_element(element):
@@ -117,9 +123,20 @@ def shape_element(element):
         return None
 
 def update_name(name, mapping):
-    for x in mapping:
-        if name.find(x)>0:
-            name=name[0:name.find(x)]+mapping[x]
+
+    # check last wor
+    last_word = name.rsplit(None, 1)[-1]
+    if last_word in mapping:
+        name=name.rsplit(' ', 1)[0]+' '+mapping[last_word]
+  
+    # check the second last word 'Tacoma Ave S'    
+    name2=name.rsplit(' ', 1)[0] 
+    second_last_word=name2.rsplit(None, 1)[-1]
+    if second_last_word in mapping:
+        name=name2.rsplit(' ', 1)[0]+' '+mapping[second_last_word]+' '+name.rsplit(None, 1)[-1]       
+    # delete name    
+    if name in DELETE_LIST:
+        name=''
     return name
 
 def process_map(file_in, pretty = False):
@@ -138,4 +155,4 @@ def process_map(file_in, pretty = False):
     return data
    
 if __name__ == "__main__":
-    data = process_map('vashon.osm', True)
+    data = process_map('tacoma.osm', True)
