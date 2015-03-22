@@ -76,15 +76,6 @@ def audit_street_name(osmfile):
                    audit_street_type(street_types, tag.attrib['v'])
     return street_types
 
-def audit_street_name2(osmfile):
-    street_names={}
-    osm_file = open(osmfile, "r")
-    street_types = defaultdict(set)
-    for event, elem in ET.iterparse(osm_file, events=("start",)):
-        if elem.tag == "node" or elem.tag == "way":
-            for tag in elem.iter("tag"):
-                if is_street_name(tag):
-                   audit_street_type2(street_types, tag.attrib['v'])
 
 
 

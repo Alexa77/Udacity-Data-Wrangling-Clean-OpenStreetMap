@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Task:
-1.clean street names (already auditted in step 1)
-2.audit and clean unnecessary tages 
+1.audit and clean secondary tages 
 
+output: cleaned json file
 """
 
 import xml.etree.ElementTree as ET
@@ -64,7 +64,7 @@ def clean_data(data_in):
                  data_cleaned[ele].pop(data_keys)
             if (data_keys in REDUCTENT_LIST):
                 data_cleaned[ele].pop(data_keys)
-            if (data_keys in RENAME_LIST):
+            if (data_keys in RENAME_LIST) and ('name' in key_list ) :
                 new_name=data_keys.replace('tiger:', '')
                 data_cleaned[ele][new_name]=data_cleaned[ele][data_keys]
                 data_cleaned[ele].pop(data_keys)
@@ -93,18 +93,18 @@ def save_json(data_in, pretty = False):
 if __name__ == "__main__": 
     
     # load data    
-    #data=load_data()
+    data=load_data()
     
     # audit data
-    #key_types = audit_keys(data)
-    #print('# of keys: ', len(key_types))
+    key_types = audit_keys(data)
+    print('# of keys: ', len(key_types))
 
     #clean data
-    #data_cleaned = clean_data(data)
+    data_cleaned = clean_data(data)
     
     # audit cleaned data
-    #key_types = audit_keys(data_cleaned)
-    #print('# of keys: ',len(key_types))
+    key_types = audit_keys(data_cleaned)
+    print('# of keys: ',len(key_types))
     
     #save to jashon
     save_json(data_cleaned)

@@ -1,0 +1,6 @@
+Link to the map positon:
+Overpass-API:http://overpass-api.de/query_form.html
+(node(47.1622,-122.6404,47.1622,-122.1714);<;);out meta
+
+Reason for selecting this area:
+I used to live in this area. It is beautiful.

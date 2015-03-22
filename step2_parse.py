@@ -3,6 +3,7 @@ Task:
 1.updata street names
 2.parse the osm file into json 
 
+output: json file
 The output are a list of dictionaries that look like this:
 
 {

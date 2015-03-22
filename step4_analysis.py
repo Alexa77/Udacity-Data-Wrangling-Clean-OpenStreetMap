@@ -34,35 +34,59 @@ if __name__ == "__main__":
     data = load_data('tacoma_cleaned.json')
 
     # connect to mongo db
-    #db=get_db()
+    db=get_db()
     
     # insert data    
-    #insert_data(data, db)
+    insert_data(data, db)
     
     # quarys
-    #print(db.tacoma.count()) # of data
-    #print (db.tacoma.find({'type':'way'}).count()) # of way 
-    #print (db.tacoma.find({'type':'node'}).count()) # of nodes
-    #print (db.tacoma.find({'amenity':'bank'}).count()) # how many banks
+    print('# of data',db.tacoma.count()) # of data
+    print ('# of way',db.tacoma.find({'type':'way'}).count()) # of way 
+    print ('# of node',db.tacoma.find({'type':'node'}).count()) # of nodes
+    print ('# of shools',db.tacoma.find({'amenity':'school'}).count()) # how many banks
+    
+    
+    # number of unqire users
+    pipeline = [ { "$group" : { "_id" : "$created.user","count": {"$sum": 1 }}},
+                 { "$sort" : { "count" : -1 }},
+                 { "$skip" : 1 },
+                 ]
+    result = db.tacoma.aggregate(pipeline)
+    print ('# of users:')    
+    print(len(result["result"]))
+
+    # number of unqie users
+    pipeline = [ { "$group" : { "_id" : "$created.user","count": {"$sum": 1 }}},
+                 { "$sort" : { "count" : -1 }},
+                 { "$skip" : 1 },
+                 { "$limit" : 5 }
+                 ]
+    result = db.tacoma.aggregate(pipeline)
+    print ('top users:')    
+    pprint.pprint(result["result"])
+           
     
     # most common source
-    #pipeline = [ { "$group" : { "_id" : "$source","count": {"$sum": 1 }}},
-    #             { "$sort" : { "count" : -1 }},
-    #             #{ "$skip" : 1 },
-    #             { "$limit" : 10 }
-    #             ]
-    #result = db.tacoma.aggregate(pipeline)
-    #pprint.pprint(result["result"])
+    pipeline = [ { "$group" : { "_id" : "$source","count": {"$sum": 1 }}},
+                 { "$sort" : { "count" : -1 }},
+                 { "$skip" : 1 },
+                 { "$limit" : 5 }
+                 ]
+    result = db.tacoma.aggregate(pipeline)
+    print ('top 5 source:')    
+    pprint.pprint(result["result"])
     
     
     # most common amrity
-    #pipeline = [ #{ "$match" : {"$name" : { "$gt":0 }}},
-    #            { "$group" : { "_id" : "$amenity","count": {"$sum": 1 }}},
-    #            { "$sort" : { "count" : -1 }},
-    #            { "$skip" : 1 },
-    #            { "$limit" : 1 }
-    #           ]
+    pipeline = [ 
+                { "$group" : { "_id" : "$amenity","count": {"$sum": 1 }}},
+                { "$sort" : { "count" : -1 }},
+                { "$skip" : 1 },
+                { "$limit" : 5 }
+               ]
+    result = db.tacoma.aggregate(pipeline)
+    print ('top 5 common amrity:')    
+    pprint.pprint(result["result"])
     
-    # 
-
+  
     
