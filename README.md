@@ -6,10 +6,10 @@ In this project, the data wrangling process is conducted following a cycle of au
 
 
 ## Usage 
-1. Step1: data auditing
-⋅⋅* source code: “step1_audit. py”    
-⋅⋅* tasks:    
-* audit/count primary tag  
-* audit/count secondary tags   
-* audit street names   
-⋅⋅* I/O: Input original .osm file, no output
+1. Step1: data auditing     
+⋅⋅* source code: “step1_audit. py”     
+⋅⋅* tasks:      
+* audit/count primary tag     
+* audit/count secondary tags     
+* audit street names     
+⋅⋅* I/O: Input original .osm file, no output   
