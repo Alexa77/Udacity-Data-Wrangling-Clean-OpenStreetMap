@@ -6,7 +6,7 @@ In this project, the data wrangling process is conducted following a cycle of au
 
 ## Usage 
 ### Step1:auditing     
-  * Ssource code: “step1_audit. py”     
+  * Ssource code: “step1_audit.py”     
   * Tasks:      
 * audit/count primary tag     
 * audit/count secondary tags     
@@ -14,20 +14,20 @@ In this project, the data wrangling process is conducted following a cycle of au
   * I/O: Input original .osm file; no output 
 
 ### Step2:parsing
-  * Source code: “step2_parse. py”
+  * Source code: “step2_parse.py”
   * Tasks:
 * updata street names
 * parse the osm file into json
   * I/O: Input original .osm file; output parsed json file.
 
 ### Step 3: cleaning
-  * Source code:“step3_clean. py”:
+  * Source code:“step3_clean.py”:
   * Tasks:
 * audit and clean secondary tags
   * I/O: input parsed json file; output cleaned json file
 
 ### Step 4: analysis
-  * Source code: “step4_analysis. py”
+  * Source code: “step4_analysis.py”
   * Tasks:
 * import the data into MongoDB
 * data analysis using queries in MongoDB
